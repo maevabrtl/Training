@@ -20,17 +20,32 @@ const horoscope = [
   // TODO: recupère l'élément <div id="horoscope">
   let horoscopeHtml = document.querySelector("#horoscope");
   
-  // TODO: remplace le console.log par le code qui ajoute un article
-  // pour chaque item avec le format suivant :
-  // <article>
-  //   <h2>Sign</h2>
-  //   <p>Description</p>
-  // </article>
-  for (const item of horoscope) {
-	  horoscopeHtml.innerHTML += 
-	  `<article>
-	  <h2>${item.sign}</h2>
-	  <p>${item.description}</p>
-	  </article>`
-	//   console.log(item.sign, item.description);
-  }
+/*
+  TODO: remplace le console.log par le code qui ajoute un article
+  pour chaque item avec le format suivant :
+  <article>
+    <h2>Sign</h2>
+    <p>Description</p>
+  </article> 
+*/
+//   for (const item of horoscope) {
+// 	  horoscopeHtml.innerHTML += 
+// 	  `<article>
+// 	  <h2>${item.sign}</h2>
+// 	  <p>${item.description}</p>
+// 	  </article>`
+// 	//   console.log(item.sign, item.description);
+//   }
+
+/*
+Autre manière de faire :
+*/
+
+for (const item of horoscope) {
+    const sign = document.createElement('h2');
+    const description = document.createElement('p');
+    sign.innerText += item.sign
+    description.innerText += item.description
+    horoscopeHtml.appendChild(sign);
+    horoscopeHtml.appendChild(description);
+}
