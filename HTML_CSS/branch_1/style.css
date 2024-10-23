@@ -1,0 +1,36 @@
+body {
+	color: hotpink;
+	background-color: pink;
+	font-family: "Comic Sans MS";
+	text-align: center;
+}
+
+img {
+	border-radius: 50%;
+	border: 5px solid hotpink;
+}
+
+/*
+
+Correction :
+
+body {
+    background-color: pink;
+}
+
+h1,
+p,
+ul {
+    font-family: 'Comic Sans MS';
+    color: hotpink;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid hotpink;
+}
+
+*/
