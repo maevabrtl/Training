@@ -1,5 +1,12 @@
 // on recupère le h1 de la page
 const pageTitle = document.querySelector('h1');
+/*
+EXERCICE 1 :
+Change le titre "Mes recettes de saison" par "Mes nouvelles recettes" grâce à 
+la variable pageTitle qui récupère les éléments de la balise h1 comme ci-dessus.
+*/
+pageTitle.innerText = "Mes nouvelles recettes"; 
+
 // on recupère dans un tableau tous les éléments qui ont la classe recipe
 const recipes = document.querySelectorAll('.recipe');
 
