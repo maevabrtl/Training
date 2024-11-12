@@ -1,0 +1,57 @@
+	Opérateurs logiques : 
+
+“Nous avons utilisé différents opérateurs logiques pour faire 
+des opérations de logique :
+> : plus grand que
+< : plus petit que
+>= : plus grand que ou égal à
+<= : plus petit que ou égal à
+== : égale à
+!= : différent de
+Il en existe d’autres. Recherche ceux qui manquent à cette liste.”
+
+!== : inégalité stricte
+=== : égalité stricte
+
+L'opérateur d'égalité stricte vérifie si ses deux opérandes sont 
+égales et renvoie un booléen correspondant au résultat. À la 
+différence de l'opérateur d'égalité, l'opérateur d'égalité stricte 
+considère toujours des opérandes de types différents comme étant 
+différents.
+
+in : L'opérateur in détermine la présence d'une propriété donnée 
+	au sein d'un objet.
+
+instanceof : L'opérateur instanceof détermine si un objet est une 
+	instance d'un autre objet. 
+
+<condition> ? <if true> : <if false> : L’opérateur conditionnel 
+										(ternaire)
+_________________________________________________________________
+
+	note :
+_________________________________________________________________
+console.log(1 !== 1);
+// Expected output: false
+
+console.log('hello' !== 'hello');
+// Expected output: false
+
+let a = '1';
+let b = 1;
+console.log(a != b);
+// output false : a and b are considered similar
+console.log(typeof(a));
+// string
+console.log(typeof(b));
+// number
+console.log('1' !== 1);
+// Expected output: true, this time they're considered unequal
+
+console.log(0 !== false);
+// Expected output: true
+_________________________________________________________________
+_________________________________________________________________
+
+source :
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators

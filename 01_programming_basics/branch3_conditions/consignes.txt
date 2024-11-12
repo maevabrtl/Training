@@ -28,3 +28,28 @@ notions de la branche :
     - Mathieu  22 ans
     - Léa 15 ans
     - Jean 17 ans
+
+
+- Exercice 3
+
+Code :
+
+    ```c
+        int tmp = 15; 
+    
+        if (tmp < 0)   
+            printf("Freezing weather.");
+        else if (tmp < 10)  
+            printf("Very cold weather.");
+        else if (tmp < 20)  
+            printf("Cold weather.");   .
+        else if (tmp < 30)  
+            printf("Normal in temp."); 
+        else if (tmp < 40)   
+            printf("Its Hot."); 
+        else  
+            printf("Its very hot.");
+    ```
+    
+Ré-écris ce code en javascript en utilisant des IF/ELSE etc. 
+Puis en utilisant un switch case.

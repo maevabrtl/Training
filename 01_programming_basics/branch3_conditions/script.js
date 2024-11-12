@@ -42,3 +42,48 @@ function checkAgeToDrive(drivers) {
 }
 
 checkAgeToDrive(driversToCheck);
+
+// Exercice 3
+console.log("\n\nExercice 3\n");
+// Part 1
+console.log("3 - Part 1\n");
+
+let tmp = 15; 
+
+if (tmp < 0)   
+	console.log("Freezing weather.");
+else if (tmp < 10)  
+	console.log("Very cold weather.");
+else if (tmp < 20)  
+	console.log("Cold weather.");
+else if (tmp < 30)  
+	console.log("Normal in temp."); 
+else if (tmp < 40)   
+	console.log("Its Hot."); 
+else  
+console.log("Its very hot.");
+
+// Part 2
+console.log("\n3 - Part 2\n");
+
+let temp = 45; 
+    
+switch (true) {
+	case (temp < 0) :   
+		console.log("Freezing weather.");
+		break ;
+	case (temp < 10) :
+		console.log("Very cold weather.");
+		break ;
+	case (temp < 20) :  
+		console.log("Cold weather.");
+		break ;
+	case (temp < 30) :  
+		console.log("Normal in temp."); 
+		break ;
+	case (temp < 40) : 
+		console.log("Its Hot.");
+		break ;
+	default :
+		console.log("Its very hot.");
+}
