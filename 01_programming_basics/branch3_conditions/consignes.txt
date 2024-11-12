@@ -1,0 +1,30 @@
+Ces exercices sont fortement recommandés pour pratiquer les 
+notions de la branche :
+
+- Exercice 1
+    
+    Nous voulons notifier l’utilisateur si les nombres sont 
+	positifs ou négatifs.
+    
+    Ecris une condition qui affichera la nature du chiffre 
+	(positif, négatif…) dans la console.
+    
+    Déclare une variable qui contiendra un nombre et teste 
+	ta condition avec les valeurs suivantes que tu donneras 
+	à la variable : 6, -8 et 0.
+    
+- Exercice 2
+    
+    Nous voulons savoir si les chauffeurs sont autorisés 
+	à conduire suivant leur âge. L’âge légal en France est 
+	maintenant de 17 ans.
+    
+    1. Déclare une fonction qui prend en paramètre un prénom 
+	et un âge.
+    2. Dans cette fonction, nous allons afficher dans la console
+	si le chauffeur est autorisé à conduire ou pas en comparant
+	son âge à l’âge légal. 
+    3. Appeler la fonction avec les chauffeurs suivant : 
+    - Mathieu  22 ans
+    - Léa 15 ans
+    - Jean 17 ans
