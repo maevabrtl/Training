@@ -1,8 +1,8 @@
 // Exercice 1
-console.log("Exercice 1\n\n");
+console.log("\n\tExercice 1\n");
 
 // 1.1
-console.log("1. Print numbers with for :\n");
+console.log("\t1. Print numbers with for loop :\n");
 
 function printNumbersWithFor() {
 	for (let i = 0; i <= 99; i++)
@@ -12,7 +12,7 @@ function printNumbersWithFor() {
 printNumbersWithFor();
 
 // 1.2
-console.log("\n2. Print numbers with while :\n");
+console.log("\n\t2. Print numbers with while loop :\n");
 
 function printNumbersWithWhile() {
 	let i = 0;
@@ -23,10 +23,10 @@ function printNumbersWithWhile() {
 printNumbersWithWhile();
 
 // 1.3
-console.log("\n3. Here, the for loop seems more appropriate\n\tbecause it's more readable.\n");
+console.log("\n\t3. Here, the for loop seems more appropriate\n\tbecause it's more readable.\n");
 
 // 1.4
-console.log("\n4. Print from 50 to 99 :\n");
+console.log("\n\t4. Print from 50 to 99 :\n");
 
 function printFrom50To99() {
 	for (let i = 50; i <= 99; i++)
@@ -36,7 +36,7 @@ function printFrom50To99() {
 printFrom50To99();
 
 // 1.5
-console.log("\n5. Print from 49 to 1 :\n");
+console.log("\n\t5. Print from 49 to 1 :\n");
 
 function printFrom49To1() {
 	for (let i = 49; i >= 1; i--)
@@ -46,7 +46,7 @@ function printFrom49To1() {
 printFrom49To1();
 
 // Exercice 2
-console.log("\n\nExercice 2\n");
+console.log("\n\n\tExercice 2\n");
 
 let letters = [ 'A', 'd', 'a', '-', 'T', 'e', 'c', 'h']
 
@@ -65,8 +65,10 @@ createMessage(letters);
 // console.log(`i = ${i}\nletters[i] = ${letters[i]}\nmessage = |${message}|\nmessage[i] = ${message[i]}\n`);
 
 // Exercice 3
-console.log("\n\nExercice 3\n\n");
+console.log("\n\n\tExercice 3\n");
+console.log("This exercise is down because my VSCode's terminal doesn't support prompt (but it works on online IDEs).\n");
 
+/*
 function yourCountdown(start) {
 	while (start >= 0)
 		console.log(start--);
@@ -88,3 +90,4 @@ function countdownHandler() {
 }
 
 countdownHandler();
+*/
