@@ -1,0 +1,58 @@
+## Les 3 exercices à faire 📝
+
+Ces exercices sont fortement recommandés pour pratiquer les notions 
+de la branche :
+
+
+- Exercice 1
+    
+    Nous souhaitons créer des compteur. 
+    
+    1. Écris une boucle FOR qui affiche dans la console tous 
+	   les nombres de 0 à 99. 
+    2. Écris le même compteur avec une boucle WHILE.
+    3. Réflexion : Quel type de boucle te semble le plus approprié 
+	   pour cette application ? 
+    4. Ecris un compteur qui affiche tous les nombres de 50 à 99 
+	   (avec la boucle de ton choix).
+    5. Ecris un compteur qui affiche tous les nombre de 49 à 1 
+	   (avec la boucle de ton choix).
+
+
+- Exercice 2
+    
+    Nous souhaitons recréer un mot à partir de lettres dans un 
+	tableau.
+    
+    ```
+    let letters = [ 'A', 'd', 'a', '-', 'T', 'e', 'c', 'h']
+    ```
+    
+    1. Créer une variable appelé “message” de type string.
+    2. Créer une boucle qui va parcourir le tableau letters (choisis 
+	   la boucle de ton choix)
+    3. Dans le code de la boucle, ajouter chaque élément du tableau 
+	   letters à message.
+    4. Une fois la boucle terminée, afficher “message” dans la 
+	   console.
+	5. Le tableau letters a maintenant changé. 
+
+	```
+	let letters = [ 'A', 'd', 'a', '-', 'S', 'c', 'h', 'o', 'o', 'l']
+	```
+
+	Fais en sorte que ta boucle soit adaptée à tous les contenus de 
+	letters (toute taille).
+
+
+- Exercice 3
+    
+    Nous souhaitons créer un décompte.
+    
+    1. Demande à l'utilisateur (à l'aide de prompt) un nombre entre 
+	   0 et 10.
+    2. Affiche ensuite tous les nombres sous le nombre indiqué par 
+	   l'utilisateur (s'il rentre 4, on affichera 4, 3, 2, 1, 0). 
+    
+    Attention, si l'utilisateur rentre un chiffre erroné il faudra 
+	afficher message d'erreur.
