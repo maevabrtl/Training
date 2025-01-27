@@ -73,6 +73,7 @@ function yourCountdown(start) {
 	while (start >= 0)
 		console.log(start--);
 }
+
 function countdownHandler() {
 	let stillPlaying = prompt("Do you want to launch a countdown ? [y/n]");
 	if (stillPlaying === 'y' || stillPlaying === 'Y') 
